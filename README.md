@@ -1,8 +1,8 @@
-# Dotted map
+# Tron map
 ## _Create Tron-like SVG maps like you have always dreamt about_
 
 
-Dotted-map is a Python package which creates an SVG map based on your requests
+Tronmap is a Python package which creates an SVG map based on your requests
 
 ## Features
 
@@ -14,7 +14,7 @@ Dotted-map is a Python package which creates an SVG map based on your requests
 
 ## Requirements
 
-Dotted-map needs following pip packages to run:
+Tronmap needs following pip packages to run:
 
 ```sh
 pip3 install shapely svgwrite
