@@ -13,7 +13,7 @@ markers = [
 ]
 
 
-# map = DottedMap(
+# map = TronMap(
 #     filename=os.path.join("examples", "map.svg"),
 #     width=1260,
 #     height=600,

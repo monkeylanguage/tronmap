@@ -1,1 +1,1 @@
-from .dotted_map import DottedMap
+from .tron_map import TronMap
