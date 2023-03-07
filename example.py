@@ -1,6 +1,6 @@
 import os
 from typing import List, Dict, Union
-from dotted_map import DottedMap
+from tronmap import TronMap
 
 CZE_SVK_REGION: Dict[str, Dict[str, float]] = {
     "lat": {"min": 47.80819952020968, "max": 51.565655326824526},
@@ -23,7 +23,7 @@ markers = [
 #     style="background-color:#020300",
 # )
 
-map_cze_svk = DottedMap(
+map_cze_svk = TronMap(
     filename=os.path.join("examples", "map_cze_svk.svg"),
     width=2000,
     height=600,

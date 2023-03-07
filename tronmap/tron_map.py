@@ -5,7 +5,7 @@ from shapely.geometry import Point, Polygon, MultiPolygon
 from typing import List, Dict, Union
 
 
-class DottedMap:
+class TronMap:
     def __init__(
         self,
         geojson: str = os.path.join("dotted_map", "countries.geo.json"),
